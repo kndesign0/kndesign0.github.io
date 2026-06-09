@@ -9,20 +9,48 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f5f5f5;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
+        }
+        .container {
+            background: white;
             padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            max-width: 600px;
+            margin: 20px;
         }
         h1 {
             color: #333;
+            margin-bottom: 10px;
         }
         p {
             color: #666;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .emoji {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        small {
+            color: #999;
+            display: block;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
-    <h1>سلام! من KNDesign هستم</h1>
-    <p>این سایت در حال ساخت است. به زودی نمونه کارهای من اینجا قرار می‌گیرد.</p>
+    <div class="container">
+        <div class="emoji">🚀</div>
+        <h1>سلام! من KNDesign هستم</h1>
+        <p>سایت من با موفقیت روی گیت‌هاب پیجز راه‌اندازی شد!</p>
+        <p>به زودی نمونه کارهای من اینجا قرار می‌گیرد.</p>
+        <small>✨ ساخته شده با ❤️ روی GitHub Pages</small>
+    </div>
 </body>
 </html>
